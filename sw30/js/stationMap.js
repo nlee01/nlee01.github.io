@@ -7,10 +7,9 @@
 
 StationMap = function(_parentElement, _data, _mapPosition) {
 	this.parentElement = _parentElement;
-  this.data = _data;
-  this.mapPosition = _mapPosition;
-
-  this.initVis();
+	this.data = _data;
+	this.mapPosition = _mapPosition;
+	this.initVis();
 }
 
 
@@ -21,21 +20,12 @@ StationMap = function(_parentElement, _data, _mapPosition) {
 StationMap.prototype.initVis = function() {
 	var vis = this;
 	
-
 	// Instantiate the map object
 	vis.map = L.map(vis.parentElement).setView(vis.mapPosition, 13);
 
 
 	// Specify directory with leaflet images
 	L.Icon.Default.imagePath = 'img';
-
-
-/*
-	// Load and display a tile layer on the map (OpenStreetMap)
-	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-	}).addTo(vis.map);
-*/
 
 	// Load and display a tile layer on the map (Stamen)
 	L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
@@ -108,22 +98,4 @@ StationMap.prototype.updateVis = function() {
 
 		vis.allMarker.addLayer(marker);
 	});
-
-
-	// Load GeoJSON objects (Boston MBTA lines) and render it on the map
-	$.getJSON("data/MBTA-Lines.json", function (data) {
-
-		var mbtaLines = L.geoJson(data, {
-			style: vis.styleSubway,
-			weight: 8,
-			opacity: 0.8
-		}).addTo(vis.map);
-
-	});
-
-}
-
-StationMap.prototype.styleSubway = function(feature) {
-	var subwayColor = feature.properties.LINE;
-	return { color: subwayColor };
 }

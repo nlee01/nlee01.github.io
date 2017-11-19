@@ -1,0 +1,21 @@
+{
+	"@attributes":
+	{"lastUpdate":"1511125642288","version":"2.0"},
+	"station":[
+		{
+			"id":"3",
+			"name":"Colleges of the Fenway - Fenway at Avenue Louis Pasteur",
+			"terminalName":"B32006","lastCommWithServer":"1511125617917",
+			"lat":"42.34011512249236","long":"-71.10061883926392",
+			"installed":"true",
+			"locked":"false",
+			"installDate":"0",
+			"removalDate":{},
+			"temporary":"false",
+			"public":"true",
+			"nbBikes":"9",
+			"nbEmptyDocks":"6",
+			"latestUpdateTime":"1511124906616"
+		}
+	]
+}
