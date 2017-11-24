@@ -34,7 +34,7 @@ function createVis() {
 	$("#station-count").text(alldata.length);
 
 	// Instantiate visualization object
-	stationMap = new StationMap("station-map", alldata, [42.360082, -71.058880]);
+	stationMap = new StationMap("station-map", alldata, [19.45, -99.1], 8);
 
 }
 

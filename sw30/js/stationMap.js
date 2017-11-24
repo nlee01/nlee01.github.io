@@ -5,10 +5,11 @@
  *  @param _data						-- Array with all stations of the bike-sharing network
  */
 
-StationMap = function(_parentElement, _data, _mapPosition) {
+StationMap = function(_parentElement, _data, _mapPosition, _mapZoom) {
 	this.parentElement = _parentElement;
 	this.data = _data;
 	this.mapPosition = _mapPosition;
+	this.mapZoom = _mapZoom;
 	this.initVis();
 }
 
@@ -21,17 +22,15 @@ StationMap.prototype.initVis = function() {
 	var vis = this;
 	
 	// Instantiate the map object
-	vis.map = L.map(vis.parentElement).setView(vis.mapPosition, 13);
+	vis.map = L.map(vis.parentElement).setView(vis.mapPosition, vis.mapZoom);
 
 
 	// Specify directory with leaflet images
 	L.Icon.Default.imagePath = 'img';
 
 	// Load and display a tile layer on the map (Stamen)
-	L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/toner-lite/{z}/{x}/{y}.{ext}', {
-		attribution: 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-		subdomains: 'abcd',
-		ext: 'png'
+	L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
 	}).addTo(vis.map);
 
 	// Add an empty layer group for the markers
