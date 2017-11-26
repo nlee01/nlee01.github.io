@@ -50,7 +50,7 @@ ConquestMap.prototype.initVis = function() {
 
 	// Instantiate icons
 	vis.redMarker = new LeafIcon({iconUrl:  'img/marker-red.png'});
-	vis.blueMarker = new LeafIcon({iconUrl:  'img/marker-blue.png'});
+	vis.grayMarker = new LeafIcon({iconUrl:  'img/marker-gray.png'});
 
 
 	vis.updateVis();
@@ -70,20 +70,21 @@ ConquestMap.prototype.updateVis = function() {
 	vis.sites.forEach(function(d){
 		console.log(d);
 		var checkEmpty = function(el) {
-			if (el == '') {
-				return '';
-			}
-			else {
-				return '<br/>';
-			}
+			return (el == '' ? '' : '<br/>');
+			// if (el == '') {
+			// 	return '';
+			// }
+			// else {
+			// 	return '<br/>';
+			// }
 		}
 		var popupContent = 	'<strong>' + d.properties.name + '</strong>' + checkEmpty(d.properties.name)
 						 + '<span style="color: #A90000"><i>' + d.properties.date + '</i></span>' + checkEmpty(d.properties.date)
 						 + d.properties.text + checkEmpty(d.properties.text)
 						 + '<span style="color: #6E6E6E; text-align: right"><i>' + d.properties.source + '</i></span>';
-		var markerColor = vis.redMarker;
+		var markerColor = d.properties.text == '' ? vis.grayMarker : vis.redMarker;
 		var marker = L.marker([d.geometry.coordinates[1],d.geometry.coordinates[0]], { icon: markerColor })
-				.bindPopup(popupContent);
+				.bindPopup(popupContent, {maxWidth : 560});
 
 		vis.allMarker.addLayer(marker);
 	});

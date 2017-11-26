@@ -22,30 +22,31 @@ function loadData() {
 
 function createVis() {
 	// Instantiate visualization object
-	map = new ConquestMap("conquest-map", sites, path, [19.40, -97.70], 9);
+	map = new ConquestMap("conquest-map", sites, path, [19.40, -97.55], 9);
 	setTimeout(function() {
-		$("#title").fadeTo(800, 1);
+		$("#title").fadeTo(500, 1);
 	}, 100);
 	setTimeout(function() {
-		$(".historical-map img").fadeTo(800, 1);
+		$(".historical-map img").fadeTo(500, 1);
 	}, 1000);
 	setTimeout(function() {
-		$(".begin").fadeTo(800, 1);
-	}, 1500);
+		$(".begin").fadeTo(500, 1);
+	}, 1800);
 }
 $(".begin").click(function() {
-	$(".historical-map").fadeTo(800, 0);
+	$(".historical-map").fadeTo(1500, 0);
 	setTimeout(function() {
 		$(".historical-map").hide();
-	}, 800);
+	}, 1500);
 	setTimeout(function() {
-		$(".leaflet-control-container").fadeTo(800, 1);
-		$(".leaflet-control-attribution").fadeTo(800, 1);
-	}, 1000);
+		$(".leaflet-control-container, .leaflet-control-attribution").fadeTo(500, 1);
+	}, 1500);
+	setTimeout(function() {
+		$(".leaflet-shadow-pane, .leaflet-marker-pane").fadeTo(500, 1);
+	}, 1800);
 });
 $(".back").click(function() {
 	$(".historical-map").show();
-	$(".historical-map").fadeTo(800, 1);
-	$(".leaflet-control-container").fadeTo(800, 0);
-	$(".leaflet-control-attribution").fadeTo(800, 0);
+	$(".historical-map").fadeTo(500, 1);
+	$(".leaflet-control-container, .leaflet-control-attribution").fadeTo(500, 0);
 });

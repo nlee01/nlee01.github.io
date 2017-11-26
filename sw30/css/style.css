@@ -1,4 +1,4 @@
-#title, .historical-map img, .begin, .leaflet-control-container, .leaflet-control-attribution {
+#title, .historical-map img, .begin, .leaflet-control-container, .leaflet-control-attribution, .leaflet-shadow-pane, .leaflet-marker-pane {
 	opacity: 0;
 }
 
