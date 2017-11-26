@@ -14,26 +14,22 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-	<div class="container-fluid">
-
-		<div class="row">
-			<div class="col-md-12">
-				
-				<!-- Headline -->
-				<h1>History of the Conquest of New Spain
-					<span class="divider">|</span>
-					<span class="sub-headline">
-						Cortes's Conquest
-					</span>
-				</h1>
-				
-				<!-- Visualization placeholders -->
-				<div id="station-map"></div>
+	<div class="row">
+		<div class="col-md-12">
 			
+			<!-- Headline -->
+			<h1 id="title">Cortes's Conquest of New Spain</h1>
+			<div class="historical-map">
+				<div class="begin">
+					<div class="begin-text blink">click to <span style="color: #A90000">begin</span></div>
+				</div>
+				<img src="/img/HCNS_map.jpg" alt="History of the Conquest of New Spain: Map of the Conquest">
 			</div>
+			
+			<!-- Visualization placeholders -->
+			<div id="conquest-map"></div>
+		
 		</div>
-
 	</div>
 
 	<!-- Load JS libraries -->
@@ -42,7 +38,7 @@
 	<script src="js/leaflet.js"></script>
 
 	<!-- Visualization objects -->
-	<script src="js/stationMap.js"></script>
+	<script src="js/conquestMap.js"></script>
 
 	<!-- Load data, create visualizations -->
 	<script src="js/main.js"></script>

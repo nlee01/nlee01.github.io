@@ -1,40 +1,35 @@
 
-var allData = [];
+var sites = [];
+var path = [];
 
 // Variable for the visualization instance
-var stationMap;
+var map;
 
 // Start application by loading the data
 loadData();
 
 
 function loadData() {
-	$.getJSON("data/sites.json", function(jsonData){
+	$.getJSON("data/features.json", function(jsonData){
 
 	    // Extract list with stations from JSON response
-	    alldata = jsonData.station;
-
-	    // Prepare data
-	    alldata.forEach(function(d){
-				d.availableBikes = +d.nbBikes;
-				d.availableDocks = +d.nbEmptyDocks;
-				d.stationName = d.name;
-				d.latitude = d.lat;
-				d.longitude = d.long;
-			});
-
-			createVis();
+	    sites = jsonData.sites;
+	    path = jsonData.path;
+		createVis();
 	});
 
 }
 
 function createVis() {
-
-	// Number of stations
-	$("#station-count").text(alldata.length);
-
 	// Instantiate visualization object
-	stationMap = new StationMap("station-map", alldata, [19.45, -99.1], 8);
-
+	map = new ConquestMap("conquest-map", sites, path, [19.40, -97.70], 9);
+	setTimeout(function() {
+		$("#title").fadeTo(800, 1);
+	}, 100);
+	setTimeout(function() {
+		$(".historical-map img").fadeTo(800, 1);
+	}, 1000);
+	setTimeout(function() {
+		$(".begin").fadeTo(800, 1);
+	}, 1500);
 }
-
