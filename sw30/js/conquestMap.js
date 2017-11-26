@@ -28,14 +28,12 @@ ConquestMap.prototype.initVis = function() {
 	// Specify directory with leaflet images
 	L.Icon.Default.imagePath = 'img';
 
-	// Load and display a tile layer on the map (Stamen)
-	// L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-	// 	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>, Tiles courtesy of <a href="http://hot.openstreetmap.org/" target="_blank">Humanitarian OpenStreetMap Team</a>'
+	// Load and display a tile layer on the map (Open Street Map)
+	// L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+ //  		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 	// }).addTo(vis.map);
-	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-  	attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-	}).addTo(vis.map);
-
+	var googleLayer = new L.Google('ROADMAP');
+    vis.map.addLayer(googleLayer);
 	// Add an empty layer group for the markers
 	vis.allMarker = L.layerGroup().addTo(vis.map);
 

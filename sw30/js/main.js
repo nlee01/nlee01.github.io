@@ -33,3 +33,19 @@ function createVis() {
 		$(".begin").fadeTo(800, 1);
 	}, 1500);
 }
+$(".begin").click(function() {
+	$(".historical-map").fadeTo(800, 0);
+	setTimeout(function() {
+		$(".historical-map").hide();
+	}, 800);
+	setTimeout(function() {
+		$(".leaflet-control-container").fadeTo(800, 1);
+		$(".leaflet-control-attribution").fadeTo(800, 1);
+	}, 1000);
+});
+$(".back").click(function() {
+	$(".historical-map").show();
+	$(".historical-map").fadeTo(800, 1);
+	$(".leaflet-control-container").fadeTo(800, 0);
+	$(".leaflet-control-attribution").fadeTo(800, 0);
+});
