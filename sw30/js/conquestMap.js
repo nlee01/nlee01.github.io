@@ -69,8 +69,18 @@ ConquestMap.prototype.updateVis = function() {
 	// Create a marker for each site
 	vis.sites.forEach(function(d){
 		console.log(d);
-		var popupContent = 	'<strong>' + d.properties.name + '</strong><br/>' + d.properties.date;
-
+		var checkEmpty = function(el) {
+			if (el == '') {
+				return '';
+			}
+			else {
+				return '<br/>';
+			}
+		}
+		var popupContent = 	'<strong>' + d.properties.name + '</strong>' + checkEmpty(d.properties.name)
+						 + '<span style="color: #A90000"><i>' + d.properties.date + '</i></span>' + checkEmpty(d.properties.date)
+						 + d.properties.text + checkEmpty(d.properties.text)
+						 + '<span style="color: #6E6E6E; text-align: right"><i>' + d.properties.source + '</i></span>';
 		var markerColor = vis.redMarker;
 		var marker = L.marker([d.geometry.coordinates[1],d.geometry.coordinates[0]], { icon: markerColor })
 				.bindPopup(popupContent);
@@ -83,6 +93,5 @@ ConquestMap.prototype.updateVis = function() {
 		opacity: .95
 	}).addTo(vis.map);
 }
-
 
 
