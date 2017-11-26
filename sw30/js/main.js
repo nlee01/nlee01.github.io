@@ -27,11 +27,14 @@ function createVis() {
 		$("#title").fadeTo(500, 1);
 	}, 100);
 	setTimeout(function() {
-		$(".historical-map img").fadeTo(500, 1);
+		$("#subtitle").fadeTo(500, 1);
 	}, 1000);
 	setTimeout(function() {
+		$(".historical-map img").fadeTo(500, 1);
+	}, 2000);
+	setTimeout(function() {
 		$(".begin").fadeTo(500, 1);
-	}, 1800);
+	}, 2800);
 }
 $(".begin").click(function() {
 	$(".historical-map").fadeTo(1500, 0);
