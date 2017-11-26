@@ -22,7 +22,8 @@ h3 {
 }
 #conquest-map {
 	width: 100%;
-	height: 528px;
+	/*height: 528px;*/
+	height: calc(100vh - 150px);
 	border: 1px solid #ccc;
 }
 .leaflet-google-layer {
@@ -34,6 +35,7 @@ h3 {
 	width: 100%;
 	height: calc(90% - 70px);
 	background-color: white;
+	opacity: 0.9;
 }
 .historical-map img{
 	width: 100vw;
