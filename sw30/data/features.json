@@ -808,7 +808,7 @@
       "properties": {
         "name": "San Juan de Ulúa",
         "date": "Holy Thursday (March/April), 1519",
-        "text": "On Holy Thursday, in the year 1519, we arrived with all the fleet at the Port of San Juan de Ulúa, and as the Pilot Alaminos knew the place well from having come there with Juan de Grijalva he at once ordered the vessels to drop anchor where they would be safe from the northerly gales. The flagship hoisted her royal standards and pennants, and within half an hour of anchoring, two large canoes came out to us, full of Mexican Indians. Seeing the big ship with the standards flying they knew that it was there they must go to speak with the captain; so they went direct to the flagship and going on board asked who was the Tatuan [Tlatoan] which in their language means the chief. Doña Marina, who understood the language well, pointed him out. Then the Indians paid many marks of respect to Cortés, according to their usage, and bade him welcome, and said that their lord, a servant of the great Montezuma, had sent them to ask what kind of men we were, and of what we were in search, and added that if we were in need of anything for ourselves or the ships, that we should tell them and they would supply it.",
+        "text": "On Holy Thursday, in the year 1519, we arrived with all the fleet at the Port of San Juan de Ulúa, and as the Pilot Alaminos knew the place well from having come there with Juan de Grijalva he at once ordered the vessels to drop anchor where they would be safe from the northerly gales…",
         "source": "(HCNS, p. 52)"
       },
       "geometry": {
@@ -823,7 +823,7 @@
       "properties": {
         "name": "Cempoala",
         "date": "Summer, 1519",
-        "text": "As we approached, twenty Indian chieftains came out to receive us in the name of the Cacique, and brought some cones made of the roses of the country with a delicious scent, which they gave to Cortés and those on horseback with every sign of friendliness, and they told Cortés that their Lord was awaiting us at our apartments, for, as he was a very stout and heavy man, he could not come out to receive us himself. Cortés thanked them and we continued our march, and as we got among the houses and saw what a large town it was, larger than any we had yet seen, we were struck with admiration. It looked like a garden with luxuriant vegetation, and the streets were so full of men and women who had come to see us, that we gave thanks to God at having discovered such a country.",
+        "text": "As we approached, twenty Indian chieftains came out to receive us in the name of the Cacique, and brought some cones made of the roses of the country with a delicious scent, which they gave to Cortés and those on horseback with every sign of friendliness…",
         "source": "(HCNS, p. 64)"
       },
       "geometry": {
@@ -838,7 +838,7 @@
       "properties": {
         "name": "Quiahuitztlan",
         "date": "Summer, 1519",
-        "text": "The next day about ten o’clock we reached the fortified town called Quiahuitztlan, which stands amid great rocks and lofty cliffs and if there had been any resistance it would have been very difficult to capture it. Expecting that there would be fighting we kept a good formation with the artillery in front and marched up to the fortress in such a manner that if anything had happened we could have done our duty.",
+        "text": "The next day about ten o’clock we reached the fortified town called Quiahuitztlan, which stands amid great rocks and lofty cliffs and if there had been any resistance it would have been very difficult to capture it…",
         "source": "(HCNS, p. 66)"
       },
       "geometry": {
@@ -898,7 +898,7 @@
       "properties": {
         "name": "Tlaxcala",
         "date": "September 23rd, 1519",
-        "text": "I also wish to say that from the time we entered the territory of Tlaxcala until we set out for the city, twenty-four days had elapsed, and we entered the city on the 23rd September, 1519…Many of the chieftains came near to Cortés and accompanied him, and when we entered the town there was not space in the streets and on the roofs for all the Indian men and women with happy faces who came out to see us. They brought us about twenty cones made of sweet scented native roses of various colours, and gave them to Cortés and to the other soldiers whom they thought were Captains, especially to the horsemen.",
+        "text": "Many of the chieftains came near to Cortés and accompanied him, and when we entered the town there was not space in the streets and on the roofs for all the Indian men and women with happy faces who came out to see us…",
         "source": "(HCNS, p. 116)"
       },
       "geometry": {
@@ -913,7 +913,7 @@
       "properties": {
         "name": "Huexotzingo",
         "date": "",
-        "text": "We went on to talk about the road which we should take to reach Mexico, for the ambassadors from Montezuma, who remained with us and were to be our guides, said that the most level and the best road was by the city of Cholula, where the people were vassals of Montezuma and there we should receive proper attention. To all of us this appeared to be good advice, that we should go by that city. When however the Caciques of Tlaxcala heard that we wished to go by a road which the Mexicans were choosing for us, they became very sorrowful, and begged us in any case to go by Huexotzingo, where the people were their relations and our friends, and not by way of Cholula, for in Cholula Montezuma always kept his double dealings concealed.",
+        "text": "[The Caciques of Tlaxcala] begged us in any case to go by Huexotzingo, where the people were their relations and our friends, and not by way of Cholula, for in Cholula Montezuma always kept his double dealings concealed…",
         "source": "(HCNS, p. 127)"
       },
       "geometry": {
@@ -928,7 +928,7 @@
       "properties": {
         "name": "Cholula",
         "date": "October, 1519",
-        "text": "After the people of Cholula had received us in the festive manner already described, and most certainly with a show of goodwill, it presently appeared that Montezuma sent orders to his ambassadors, who were still in our company, to negotiate with the Cholulans that an army of twenty thousand men which Montezuma had sent and equipped should, on entering the city, join with them in attacking us by night or by day, get us into a hopeless plight and bring all of us that they could capture bound to Mexico. And he sent many presents of jewels and cloths, also a golden drum, and he also sent word to the priests of the city that they were to retain twenty of us to sacrifice to their Idols.",
+        "text": "After the people of Cholula had received us in the festive manner already described, and most certainly with a show of goodwill, it presently appeared that Montezuma sent orders to his ambassadors…[to attack] us by night or by day, get us into a hopeless plight and bring all of us that they could capture bound to Mexico…",
         "source": "(HCNS, p. 132)"
       },
       "geometry": {
@@ -943,7 +943,7 @@
       "properties": {
         "name": "Amecameca",
         "date": "October, 1519",
-        "text": "The next day we set out on our march, and, about the hour of high Mass, arrived at a town (Amecameca), where they received us well and where there was no scarcity of food…When the other towns in the neighbourhood heard of our arrival, people soon came from Chalco and from Chimaloacan and from Ayotzingo, where the canoes are, for it is their port. All of them together brought a present of gold and two loads of mantles and eight Indian women and the gold was worth over one hundred and fifty pesos and they said: “Malinche, accept these presents which we give you and look on us in the future as your friends”.",
+        "text": "The next day we set out on our march, and, about the hour of high Mass, arrived at a town (Amecameca), where they received us well and where there was no scarcity of food…",
         "source": "(HCNS, p. 150)"
       },
       "geometry": {
@@ -958,7 +958,7 @@
       "properties": {
         "name": "Ayotzingo",
         "date": "October, 1519",
-        "text": "We went to sleep at a town called Iztapalatengo [this is clearly a mistake; the town was Ayotzingo] where half the houses are in the water and the other half on dry land, and there they gave us a good supper.",
+        "text": "We went to sleep at a town called Iztapalatengo [this is clearly a mistake; the town was Ayotzingo] where half the houses are in the water and the other half on dry land, and there they gave us a good supper…",
         "source": "(HCNS, p. 153)"
       },
       "geometry": {
@@ -973,7 +973,7 @@
       "properties": {
         "name": "Iztapalapa",
         "date": "October/November, 1519",
-        "text": "Thus, we arrived near Iztapalapa, to behold the splendour of the other Caciques who came out to meet us, who were the Lord of the town named Cuitlahuac, and the Lord of Culuacan, both of them near relations of Montezuma. And then when we entered the city of Iztapalapa, the appearance of the palaces in which they lodged us! How spacious and well built they were, of beautiful stonework and cedar wood, and the wood of other sweet-scented trees, with great rooms and courts, wonderful to behold, covered with awnings of cotton cloth.",
+        "text": "And then when we entered the city of Iztapalapa, the appearance of the palaces in which they lodged us! How spacious and well built they were, of beautiful stonework and cedar wood…",
         "source": "(HCNS, p. 156)"
       },
       "geometry": {
@@ -988,7 +988,7 @@
       "properties": {
         "name": "City of Mexico",
         "date": "November 8th, 1519",
-        "text": "When we arrived near to Mexico, where there were some other small towers, the Great Montezuma got down from his litter, and those great Caciques supported him with their arms beneath a marvellously rich canopy of green-coloured feathers with much gold and silver embroidery and with pearls and chalchihuites suspended from a sort of bordering, which was wonderful to look at. The Great Montezuma was richly attired according to his usage, and he was shod with sandals, the soles were of gold and the upper part adorned with precious stones. The four Chieftains who supported his arms were also richly clothed according to their usage, in garments which were apparently held ready for them on the road to enable them to accompany their prince, for they did not appear in such attire when they came to receive us. Besides these four Chieftains, there were four other great Caciques who supported the canopy over their heads, and many other Lords who walked before the Great Montezuma, sweeping the ground where he would tread and spreading cloths on it, so that he should not tread on the earth. Not one of these Chieftains dared even to think of looking him in the face, but kept their eyes lowered with great reverence, except those four relations, his nephews, who supported him with their arms.",
+        "text": "When we arrived near to Mexico, where there were some other small towers, the Great Montezuma got down from his litter, and those great Caciques supported him with their arms beneath a marvellously rich canopy of green-coloured feathers with much gold and silver embroidery and with pearls and chalchihuites suspended from a sort of bordering, which was wonderful to look at. The Great Montezuma was richly attired according to his usage, and he was shod with sandals, the soles were of gold and the upper part adorned with precious stones…",
         "source": "(HCNS, p. 158)"
       },
       "geometry": {

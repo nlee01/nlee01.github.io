@@ -93,6 +93,9 @@ ConquestMap.prototype.updateVis = function() {
 		weight: 4,
 		opacity: .95
 	}).addTo(vis.map);
+	setTimeout(function() {
+		$("#conquest-map").hide();
+	}, 1000);
 }
 
 

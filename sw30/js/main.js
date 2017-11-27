@@ -37,6 +37,7 @@ function createVis() {
 	}, 2800);
 }
 $(".begin").click(function() {
+	$("#conquest-map").show();
 	$(".historical-map").fadeTo(1500, 0);
 	setTimeout(function() {
 		$(".historical-map").hide();
@@ -45,11 +46,14 @@ $(".begin").click(function() {
 		$(".leaflet-control-container, .leaflet-control-attribution").fadeTo(500, 1);
 	}, 1500);
 	setTimeout(function() {
-		$(".leaflet-shadow-pane, .leaflet-marker-pane").fadeTo(500, 1);
+		$(".leaflet-shadow-pane, .leaflet-marker-pane, .sources").fadeTo(500, 1);
 	}, 1800);
 });
 $(".back").click(function() {
 	$(".historical-map").show();
 	$(".historical-map").fadeTo(500, 1);
 	$(".leaflet-control-container, .leaflet-control-attribution").fadeTo(500, 0);
+	setTimeout(function() {
+		$("#conquest-map").hide();
+	}, 500);
 });
