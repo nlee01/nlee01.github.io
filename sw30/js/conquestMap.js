@@ -79,9 +79,11 @@ ConquestMap.prototype.updateVis = function() {
 			// }
 		}
 		var popupContent = 	'<strong>' + d.properties.name + '</strong>' + checkEmpty(d.properties.name)
-						 + '<span style="color: #A90000"><i>' + d.properties.date + '</i></span>' + checkEmpty(d.properties.date)
-						 + d.properties.text + checkEmpty(d.properties.text)
-						 + '<span style="color: #6E6E6E; text-align: right"><i>' + d.properties.source + '</i></span>';
+						 + '<i><span style="color: #A90000">' + d.properties.date + '</span>' + checkEmpty(d.properties.date)
+						 + d.properties.text
+						 + '<span style="color: #6E6E6E;">' + d.properties.source + '</span></i>' + checkEmpty(d.properties.source)
+						 + '<p>' + d.properties.analysis + checkEmpty(d.properties.analysis)
+						 + '<span style="color: #6E6E6E;"><i>' + d.properties.more + '</i></span></p>';
 		var markerColor = d.properties.text == '' ? vis.grayMarker : vis.redMarker;
 		var marker = L.marker([d.geometry.coordinates[1],d.geometry.coordinates[0]], { icon: markerColor })
 				.bindPopup(popupContent, {maxWidth : 560});

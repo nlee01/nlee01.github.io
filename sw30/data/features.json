@@ -809,7 +809,9 @@
         "name": "San Juan de Ulúa",
         "date": "Holy Thursday (March/April), 1519",
         "text": "On Holy Thursday, in the year 1519, we arrived with all the fleet at the Port of San Juan de Ulúa, and as the Pilot Alaminos knew the place well from having come there with Juan de Grijalva he at once ordered the vessels to drop anchor where they would be safe from the northerly gales…",
-        "source": "(HCNS, p. 52)"
+        "source": "(HCNS, p. 52)",
+        "analysis": "From Cortes’s first significant encounter with the people in the far reaches of the Aztec Empire, ideas of gift giving, trade and tribute, and warrior culture are presented as major themes throughout the rest of the journey through Mesoamerica. Gifts of food and riches are given as signs of friendship and opening of trade, and displays of war technology through cannons and armor are taken at great value by the native people. This kind of gift exchange was an integral aspect of Mesoamerican culture, integrating concepts of obligation, status, and role within everyday society.",
+        "more": "Read more about gift exchange: The Gift, Marcel Mauss, p. 15-17."
       },
       "geometry": {
         "type": "Point",
@@ -824,7 +826,9 @@
         "name": "Cempoala",
         "date": "Summer, 1519",
         "text": "As we approached, twenty Indian chieftains came out to receive us in the name of the Cacique, and brought some cones made of the roses of the country with a delicious scent, which they gave to Cortés and those on horseback with every sign of friendliness…",
-        "source": "(HCNS, p. 64)"
+        "source": "(HCNS, p. 64)",
+        "analysis": "Cortes first arrives at Cempoala to be welcomed with open arms, but after traveling to Quiahuitztlan and returning, he and the Spanish destroy the natives’ idols and “evil images” in order to honor their Christian god. Despite their protests, the Caciques of Cempoala are overpowered by Cortes’s threats of violence and force, and instead stand by as the Spanish burn their priests to death, erect a Christian altar, and baptize eight of the native women. The Spanish arrival at Cempoala marks an important milestone of Mesoamerican belief systems, beginning the process of religious transculturation and syncretism through the mixing and practicing of Mesoamerican-Christian religions.",
+        "more": "Read more about the Mesoamerican reception of Christian religion: The Aztec-Spanish Dialogues of 1524, Bernardino de Sahagún, p. 19-20."
       },
       "geometry": {
         "type": "Point",
@@ -839,7 +843,9 @@
         "name": "Quiahuitztlan",
         "date": "Summer, 1519",
         "text": "The next day about ten o’clock we reached the fortified town called Quiahuitztlan, which stands amid great rocks and lofty cliffs and if there had been any resistance it would have been very difficult to capture it…",
-        "source": "(HCNS, p. 66)"
+        "source": "(HCNS, p. 66)",
+        "analysis": "While in Quiahuitztlan, Cortes learns from the people there that “five Mexicans…the tax-gatherers of the great Montezuma [had come] to inquire why they had received [the Spaniards] in their town without the permission of their lord” (HCNS p. 68-69). Prior to the Spanish conquest, the Aztec empire (comprising Tenochtitlan, Tetzcoco, and Tlacopan) collected tribute from conquered populations that included agriculture, goods, raw materials, and labor. The practice of tribute also played an integral role in establishing the status and power of the Tenochtitlan elite; the reaction of fear and shock from the citizens of Quiahuitztlan after the Spanish defy Montezuma’s tax-gatherers reinforces the significance of this power dynamic.",
+        "more": "Read more about practices of tribute during the Aztec empire: Tribute, Oxford Encyclopedia of Mesoamerican Cultures, p. 1-3."
       },
       "geometry": {
         "type": "Point",
@@ -854,7 +860,9 @@
         "name": "Jalapa",
         "date": "Summer, 1519",
         "text": "",
-        "source": ""
+        "source": "",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -869,7 +877,9 @@
         "name": "Xico Viejo",
         "date": "Summer/Fall, 1519",
         "text": "",
-        "source": ""
+        "source": "",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -884,7 +894,9 @@
         "name": "Ixtacamaxtitlan",
         "date": "Summer/Fall, 1519",
         "text": "",
-        "source": ""
+        "source": "",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -899,7 +911,9 @@
         "name": "Tlaxcala",
         "date": "September 23rd, 1519",
         "text": "Many of the chieftains came near to Cortés and accompanied him, and when we entered the town there was not space in the streets and on the roofs for all the Indian men and women with happy faces who came out to see us…",
-        "source": "(HCNS, p. 116)"
+        "source": "(HCNS, p. 116)",
+        "analysis": "Alongside his narration of their arrival at Tlaxcala, Castillo also chooses this point of the story to describe the significance of Doña Marina, the interpreter and mistress to Hernan Cortes. Castillo explains that Cortes himself was often called “Malinche” (“Marina’s Captain”) whenever in the presence of Aztec ambassadors due to her work translating his words. Doña Marina may have been one of the most significant reasons for the Spanish conquest’s success, as she played an integral role in negotiating Cortes’s interests and creating the alliance between other rivals to Montezuma. While Castillo’s portrayal may focus on the ways she aided the Spanish, Doña Marina is a controversial figure within Mesoamerican-Spanish history; the concept of gender roles ties strongly to ideas of Mexican nationalism, modern movements of feminism, and historical heritage.",
+        "more": "Read more about gender roles in Mexica: The Female Being Revealed (Aztecs: An Interpretation), Inga Clendinnen, p. 206-209.</br>Read more about gender roles connecting Doña Marina to modern Mexico: Colonial Sexuality: Of Women, Men, and Mestizaje (reproduced in HCNS), Karen Vieira Powers, p. 405-411."
       },
       "geometry": {
         "type": "Point",
@@ -914,7 +928,9 @@
         "name": "Huexotzingo",
         "date": "",
         "text": "[The Caciques of Tlaxcala] begged us in any case to go by Huexotzingo, where the people were their relations and our friends, and not by way of Cholula, for in Cholula Montezuma always kept his double dealings concealed…",
-        "source": "(HCNS, p. 127)"
+        "source": "(HCNS, p. 127)",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -929,7 +945,9 @@
         "name": "Cholula",
         "date": "October, 1519",
         "text": "After the people of Cholula had received us in the festive manner already described, and most certainly with a show of goodwill, it presently appeared that Montezuma sent orders to his ambassadors…[to attack] us by night or by day, get us into a hopeless plight and bring all of us that they could capture bound to Mexico…",
-        "source": "(HCNS, p. 132)"
+        "source": "(HCNS, p. 132)",
+        "analysis": "The “Massacre at Cholula” chapter introduces the significance of human sacrifice in the Aztec world—Montezuma orders that 20 of the Spanish soldiers be kept for sacrificial purposes, and Castillo later describes how the Spanish release the dozens of prisoners in the city to prevent them from being sacrificed. While much of Castillo’s narrative focuses on a more transactional, savage practice of human sacrifice, the ritual has its roots in ideas of cosmic renewal that had significant meaning across economic, political, military, and artistic traditions.",
+        "more": "Read more about human sacrifice: Religions of Mesoamerica, David Carrasco, p. 105-112. Read more about religion’s connection to the birth of the Aztec world: The House of the Eagle (Cave, City, and Eagle’s Nest), Elizabeth Boone, p. 27-44."
       },
       "geometry": {
         "type": "Point",
@@ -944,7 +962,9 @@
         "name": "Amecameca",
         "date": "October, 1519",
         "text": "The next day we set out on our march, and, about the hour of high Mass, arrived at a town (Amecameca), where they received us well and where there was no scarcity of food…",
-        "source": "(HCNS, p. 150)"
+        "source": "(HCNS, p. 150)",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -959,7 +979,9 @@
         "name": "Ayotzingo",
         "date": "October, 1519",
         "text": "We went to sleep at a town called Iztapalatengo [this is clearly a mistake; the town was Ayotzingo] where half the houses are in the water and the other half on dry land, and there they gave us a good supper…",
-        "source": "(HCNS, p. 153)"
+        "source": "(HCNS, p. 153)",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -974,7 +996,9 @@
         "name": "Iztapalapa",
         "date": "October/November, 1519",
         "text": "And then when we entered the city of Iztapalapa, the appearance of the palaces in which they lodged us! How spacious and well built they were, of beautiful stonework and cedar wood…",
-        "source": "(HCNS, p. 156)"
+        "source": "(HCNS, p. 156)",
+        "analysis": "",
+        "more": ""
       },
       "geometry": {
         "type": "Point",
@@ -989,7 +1013,9 @@
         "name": "City of Mexico",
         "date": "November 8th, 1519",
         "text": "When we arrived near to Mexico, where there were some other small towers, the Great Montezuma got down from his litter, and those great Caciques supported him with their arms beneath a marvellously rich canopy of green-coloured feathers with much gold and silver embroidery and with pearls and chalchihuites suspended from a sort of bordering, which was wonderful to look at. The Great Montezuma was richly attired according to his usage, and he was shod with sandals, the soles were of gold and the upper part adorned with precious stones…",
-        "source": "(HCNS, p. 158)"
+        "source": "(HCNS, p. 158)",
+        "analysis": "Cortes’s initial experiences with Montezuma carry an underlying current of Aztec cosmovision through Montezuma’s status as a deity with the rituals and behavior of those around him. According to Castillo, Montezuma’s two hundred chieftains would have to enter his presence “barefoot [and] with their eyes lowered to the ground…[saying] ‘Lord, my Lord, my Great Lord’ before they came up to him” (HCNS p. 166). A few days later when Cortes and Montezuma see the Temple of Huichilobos, Cortes criticizes the Aztec gods as devils, but Montezuma responds that they “consider them to be very good, for they give us health and rains and good seedtimes and seasons and as many victories as we desire,” showing the clear practical relationship the Aztecs associated with their religious practices—religious cosmovision that impacted everyday life.",
+        "more": "Read more about Mesoamerican cosmovision: Relationships of the Essences, Alfredo López Austin, p. 5-11. Read about the connection between ‘transcendence’ and Mesoamerican history: Mesoamerican Civilization and the Idea of Transcendence, Gordon R. Willey, p. 207-213."
       },
       "geometry": {
         "type": "Point",
